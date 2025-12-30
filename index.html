@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>eric-vandyke</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/img1.svg" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -13,17 +14,16 @@
         <span class="brand-name">Eric VanDyke</span>
       </div>
       <nav class="main-nav">
-        <a href="#about">About</a>
+        <a href="#about">Gallery</a>
         <a href="#work">Work</a>
-        <a href="#services">Services</a>
       </nav>
     </header>
 
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Hello, I’m</p>
+        <p class="eyebrow">Hi! 👋</p>
         <h1>Eric VanDyke<span class="accent-dot">.</span></h1>
-        <p class="lede">Eric is a System Integration and Information Solutions team leader in the hyperscaler Datacenter and Semiconductor markets and responsible for the technical delivery.</p>
+        <p class="lede">I’m curious by default. I enjoy staying close to the bleeding edge of technology, building things (digital or physical), running, lifting, spending time with my dog, and enjoying a good beer. I value direct communication, thoughtful design, and work that actually holds up when it matters.</p>
         <div class="hero-stats">
           <div class="stat">
             <div class="stat-value">12+</div>
@@ -54,60 +54,100 @@
       </div>
     </section>
 
-    <section id="about" class="section about">
-      <div class="about-media">
-        <div class="about-portrait"></div>
-        <div class="bubble bubble-large">
-          <strong>215+</strong>
-          <span>Projects completed</span>
-        </div>
-        <div class="bubble bubble-small">
-          <strong>97%</strong>
-          <span>Happy clients</span>
-        </div>
-      </div>
-      <div class="about-copy">
-        <p class="eyebrow">About me</p>
-        <h2>Designing systems with heart</h2>
-        <p class="lede">I pair product thinking with visual craft to build experiences that feel cohesive end-to-end—from research and flows to UI polish and launch.</p>
-        <div class="about-grid">
-          <div class="card mini">
-            <div class="stat-value">16</div>
-            <div class="stat-label">Years of experience</div>
-          </div>
-          <div class="card mini">
-            <div class="stat-value">4</div>
-            <div class="stat-label">Industries</div>
-          </div>
-          <div class="card mini">
-            <div class="stat-value">∞</div>
-            <div class="stat-label">Curiosity</div>
-          </div>
-        </div>
-        <div class="cta-row">
-          <a class="primary-btn" data-config-link="socials.email" href="#">Hire me</a>
-          <a class="secondary-btn ghost" data-config-link="projects.two" href="#">See client work</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="section services">
+    <section id="about" class="section gallery">
       <div class="section-header">
-        <p class="eyebrow">What I do</p>
-        <h2>Services</h2>
+        <p class="eyebrow">Photo Gallery</p>
       </div>
-      <div class="service-grid">
-        <article class="card service-card featured">
-          <h3>Product & UX Design</h3>
-          <p>Create product vision, flows, wireframes, prototypes, and usability tests that align teams around the right thing to build.</p>
+
+      <div class="gallery-groups">
+        <article class="card gallery-group">
+          <header class="group-header">
+            <button class="accordion-toggle" type="button" aria-expanded="false">
+              <div class="pill-row">
+                <span class="pill">ai 🤝 anime</span>
+                <span class="chevron" aria-hidden="true">👇</span>
+              </div>
+            </button>
+          </header>
+          <div class="gallery-carousel" data-carousel hidden>
+            <div class="gallery-grid">
+              <figure class="gallery-tile gallery-slide active">
+                <img src="assets/img/img2.jpeg" alt="AI anime portrait in neon lighting">
+                <figcaption>Neon pilot plotting side quests</figcaption>
+              </figure>
+              <figure class="gallery-tile gallery-slide">
+                <img src="assets/img/img3.jpeg" alt="AI anime warrior in motion">
+                <figcaption>Alley boss fight, zero loading screens</figcaption>
+              </figure>
+              <figure class="gallery-tile gallery-slide">
+                <img src="assets/img/img4.jpeg" alt="AI anime astronaut with glowing helmet">
+                <figcaption>Cosmic scout cosplaying as an album cover</figcaption>
+              </figure>
+            </div>
+            <button class="carousel-btn prev" type="button" aria-label="Previous image" data-carousel-prev>‹</button>
+            <button class="carousel-btn next" type="button" aria-label="Next image" data-carousel-next>›</button>
+            <div class="carousel-dots" data-carousel-dots></div>
+          </div>
         </article>
-        <article class="card service-card">
-          <h3>Systems & Design Ops</h3>
-          <p>Design systems, tokens, and component libraries that keep product surfaces coherent as teams and features scale.</p>
+
+        <article class="card gallery-group">
+          <header class="group-header">
+            <button class="accordion-toggle" type="button" aria-expanded="false">
+              <div class="pill-row">
+                <span class="pill">ai 🤝 glow up</span>
+                <span class="chevron" aria-hidden="true">👇</span>
+              </div>
+            </button>
+          </header>
+          <div class="gallery-carousel" data-carousel hidden>
+            <div class="gallery-grid">
+              <figure class="gallery-tile gallery-slide active">
+                <img src="assets/img/img5.jpeg" alt="AI glam headshot with glass prism light">
+                <figcaption>Prism glam—refraction doing the retouching</figcaption>
+              </figure>
+              <figure class="gallery-tile gallery-slide">
+                <img src="assets/img/img8.jpeg" alt="AI surreal collage with saturated colors">
+                <figcaption>Colorstorm born from a typo</figcaption>
+              </figure>
+              <figure class="gallery-tile gallery-slide">
+                <img src="assets/img/img9.jpeg" alt="AI messy experimental portrait">
+                <figcaption>Layered chaos that shouldn’t work, yet does</figcaption>
+              </figure>
+              <figure class="gallery-tile gallery-slide">
+                <img src="assets/img/img10.png" alt="AI glitchy portrait remix">
+                <figcaption>Glitchcore masquerading as a headshot</figcaption>
+              </figure>
+            </div>
+            <button class="carousel-btn prev" type="button" aria-label="Previous image" data-carousel-prev>‹</button>
+            <button class="carousel-btn next" type="button" aria-label="Next image" data-carousel-next>›</button>
+            <div class="carousel-dots" data-carousel-dots></div>
+          </div>
         </article>
-        <article class="card service-card">
-          <h3>Delivery & Handoff</h3>
-          <p>Spec, document, and partner with engineering to ship polished experiences—no surprises at build time.</p>
+
+        <article class="card gallery-group">
+          <header class="group-header">
+            <button class="accordion-toggle" type="button" aria-expanded="false">
+              <div class="pill-row">
+                <span class="pill">ai 🤝 slop</span>
+                <span class="chevron" aria-hidden="true">👇</span>
+              </div>
+            </button>
+          </header>
+          <div class="gallery-carousel" data-carousel hidden>
+            <div class="gallery-grid">
+              <figure class="gallery-tile gallery-slide active">
+                <img src="assets/img/img6.jpeg" alt="AI refined portrait with soft light">
+                <figcaption>Soft light upgrade with 0% awkwardness</figcaption>
+              </figure>
+              <figure class="gallery-tile gallery-slide">
+                <img src="assets/img/img7.jpeg" alt="AI anime astronaut with glowing helmet">
+                <figcaption>Space helmet, vibes only</figcaption>
+              </figure>
+            </div>
+            <button class="carousel-btn prev" type="button" aria-label="Previous image" data-carousel-prev>‹</button>
+            <button class="carousel-btn next" type="button" aria-label="Next image" data-carousel-next>›</button>
+            <div class="carousel-dots" data-carousel-dots></div>
+          </div>
         </article>
       </div>
     </section>
@@ -115,7 +155,7 @@
     <section id="work" class="section work">
       <div class="section-header">
         <p class="eyebrow">Selected work</p>
-        <h2>Recent projects</h2>
+        <h2>Eric is a System Integration and Information Solutions team leader in the hyperscaler Datacenter and Semiconductor markets and responsible for the technical delivery.</h2>
       </div>
       <div class="work-grid">
         <article class="card work-card">
@@ -143,6 +183,95 @@
       <p>© 2025 Eric VanDyke</p>
     </footer>
   </div>
+  <script>
+    (function () {
+      var groups = document.querySelectorAll('.gallery-group');
+      groups.forEach(function (group) {
+        var toggle = group.querySelector('.accordion-toggle');
+        var panel = group.querySelector('.gallery-carousel');
+        var chevron = group.querySelector('.chevron');
+        if (!toggle || !panel) return;
+
+        var isOpen = false;
+        var setOpen = function (nextState) {
+          isOpen = nextState;
+          panel.hidden = !isOpen;
+          group.classList.toggle('open', isOpen);
+          toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+          if (chevron) {
+            chevron.textContent = isOpen ? '☝️' : '👇';
+          }
+        };
+
+        setOpen(false);
+
+        toggle.addEventListener('click', function () {
+          setOpen(!isOpen);
+        });
+      });
+    })();
+  </script>
+  <script>
+    (function () {
+      var carousels = document.querySelectorAll('[data-carousel]');
+
+      carousels.forEach(function (carousel) {
+        var slides = carousel.querySelectorAll('.gallery-slide');
+        if (!slides.length) return;
+
+        var prevBtn = carousel.querySelector('[data-carousel-prev]');
+        var nextBtn = carousel.querySelector('[data-carousel-next]');
+        var dotsContainer = carousel.querySelector('[data-carousel-dots]');
+        var current = 0;
+
+        var setActive = function (nextIndex) {
+          slides[current].classList.remove('active');
+          current = (nextIndex + slides.length) % slides.length;
+          slides[current].classList.add('active');
+          if (dotsContainer) {
+            Array.prototype.forEach.call(dotsContainer.children, function (dot, idx) {
+              dot.classList.toggle('active', idx === current);
+            });
+          }
+        };
+
+        slides.forEach(function (slide, idx) {
+          if (idx === 0) {
+            slide.classList.add('active');
+          } else {
+            slide.classList.remove('active');
+          }
+        });
+
+        if (dotsContainer) {
+          slides.forEach(function (_slide, idx) {
+            var dot = document.createElement('button');
+            dot.type = 'button';
+            dot.className = 'carousel-dot';
+            dot.setAttribute('aria-label', 'Go to image ' + (idx + 1));
+            dot.addEventListener('click', function () {
+              setActive(idx);
+            });
+            dotsContainer.appendChild(dot);
+          });
+          if (dotsContainer.firstChild) {
+            dotsContainer.firstChild.classList.add('active');
+          }
+        }
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', function () {
+            setActive(current - 1);
+          });
+        }
+        if (nextBtn) {
+          nextBtn.addEventListener('click', function () {
+            setActive(current + 1);
+          });
+        }
+      });
+    })();
+  </script>
   <script>
     (function () {
       var rootPrefix = window.location.pathname.indexOf('/projects/') !== -1 ? '..' : '.';
